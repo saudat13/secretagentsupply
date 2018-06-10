@@ -4,14 +4,37 @@ body {
   font-size: 18px;
 }
 
-
-.logoimage {
-  background-color: black;
-  padding: 0.66rem 0.66rem;
+h1, h2, h3, p, h4, h5, h6 {
+  color: white;
 }
 
-h1, h2, h3, p, h4 {
-  color: white;
+h6 {
+  font-size: 36px;
+  font-weight: bold;
+  padding-left: 3rem;
+}
+
+h5 {
+  padding-top: 2rem;
+  padding-bottom: 0.25rem;
+  font-size: 1rem;
+}
+
+h1 {
+  padding-bottom: 0.66rem;
+  padding-top: 0.66rem;
+  position:
+}
+
+/* Header */
+
+#logoimage {
+  background-color: black;
+  height: 1.5rem;
+}
+
+#mainbanner {
+
 }
 
 #menu {
@@ -22,4 +45,15 @@ h1, h2, h3, p, h4 {
 
 #newarrival {
   color: white;
+  position: absolute;
+  background-color: black;
+  top: 300px;
+  width: 20rem;
+  vertical-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 9rem;
 }
+
+/* Second Half of the Page */
