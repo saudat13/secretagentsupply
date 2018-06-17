@@ -2,6 +2,11 @@ body {
   background-color: black;
   font-family: Helvetica;
   font-size: 18px;
+  width: 960px;
+}
+
+.container {
+  max-width: 960px;
 }
 
 h1, h2, h3, p, h4, h5, h6 {
