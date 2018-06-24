@@ -57,10 +57,19 @@ h1 {
   padding-left: 7.5rem;
 }
 
-#menu {
+/* Menu */
+
+nav {
   background-color: firebrick;
   color: white;
   padding: 0.75rem 0.75rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
 }
 
 #newarrival {
@@ -85,15 +94,12 @@ h1 {
 
 #individualpics {
   background-color: black;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/pen.png);
   background-size: 9rem;
   background-repeat: no-repeat;
-  height: 9rem;
-  width: 30%;
-  border: 4px solid black;
   text-align: center;
+  width: 30%;
+  margin-top: 15px;
 }
 
 #individualpics2 {
@@ -101,11 +107,11 @@ h1 {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/watch.png);
   background-size: 9rem;
   background-repeat: no-repeat;
-  width: 30%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border: 4px solid black;
   text-align: center;
+  width: 30%;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 15px;
 }
 
 #individualpics3 {
@@ -113,12 +119,10 @@ h1 {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/glasses.png);
   background-repeat: no-repeat;
   background-size: 9rem;
-  width: 30%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border: 4px solid black;
+  background-repeat: no-repeat;
   text-align: center;
-
+  width: 30%;
+  margin-top: 15px;
 }
 
 .operation {
