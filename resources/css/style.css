@@ -42,7 +42,6 @@ h1 {
   height: 1.5rem;
   padding-left: 0.5rem;
   padding-right: 1rem;
-
 }
 
 #mainbanner {
@@ -85,11 +84,20 @@ nav ul {
 
 .picsofitems {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  background-color: white;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.businessimages {
+  width: 30%;
+}
+
+.desciption {
+  display: block;
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
 #individualpics {
@@ -98,7 +106,6 @@ nav ul {
   background-size: 9rem;
   background-repeat: no-repeat;
   text-align: center;
-  width: 30%;
   margin-top: 15px;
 }
 
@@ -108,7 +115,6 @@ nav ul {
   background-size: 9rem;
   background-repeat: no-repeat;
   text-align: center;
-  width: 30%;
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 15px;
@@ -121,7 +127,6 @@ nav ul {
   background-size: 9rem;
   background-repeat: no-repeat;
   text-align: center;
-  width: 30%;
   margin-top: 15px;
 }
 
