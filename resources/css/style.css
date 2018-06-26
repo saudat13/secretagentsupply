@@ -106,6 +106,10 @@ nav ul {
   align-items: center;
 }
 
+.businessimages img {
+  max-width: 8rem;
+}
+
 .description {
   display: block;
   padding: 0.5rem;
@@ -114,7 +118,7 @@ nav ul {
   text-align: center;
 }
 
-.individualpics {
+.product-pen {
   background-color: black;
   background-size: 9rem;
   background-repeat: no-repeat;
@@ -122,7 +126,7 @@ nav ul {
   margin-top: 15px;
 }
 
-.individualpics2 {
+.product-watch {
   background-color: black;
   background-size: 9rem;
   background-repeat: no-repeat;
@@ -132,7 +136,7 @@ nav ul {
   margin-top: 15px;
 }
 
-.individualpics3 {
+.product-glasses {
   background-color: black;
   background-repeat: no-repeat;
   background-size: 9rem;
